@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Моя перша HTML форма</title>
+    <meta charset="UTF-8" />
+  </head>
+
+  <body>
+    <div id="app"></div>
+    <h1>Моя перша HTML форма</h1>
+    <form method="POST" action="https://httpbin.org/post">
+      <label>Введіть ваше імя</label>
+      <input type="text" id="name" name="name" placeholder="name" />
+      <p><label>Введіть ваше імя</label> <input type="date" name="date" /></p>
+      <label>Емейл</label>
+      <input type="email" name="email" placeholder="name@uzhnu.edu.ua" />
+      <p><label>Повідомлення:</label> <textarea></textarea></p>
+      <input type="submit" value="Надіслати" />
+      <input type="reset" value="Очистити" />
+    </form>
+    <script src="./index.mjs" type="module"></script>
+  </body>
+</html>
