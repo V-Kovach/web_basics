@@ -1,0 +1,45 @@
+h1 {
+  color: red;
+}
+
+.list1 {
+  color: #ff0000;
+  font-style: italic;
+  background: yellow;
+  border: 1px solid red;
+}
+.list2 {
+  border: 1px solid red;
+}
+#gren {
+  color: green;
+}
+a {
+  color: violet;
+  text-decoration: none;
+}
+a[href$=".pdf"] {
+  color: green;
+  font-style: italic;
+}
+h2 {
+  text-transform: uppercase;
+}
+p a {
+  color: magenta;
+  background: mistyrose;
+}
+li .bold {
+  text-transform: uppercase;
+}
+.bold {
+  font-weight: bold;
+}
+.last {
+  text-align: right;
+  font-size: 20px;
+  border: 1px solid blue;
+}
+* {
+  box-sizing: border-box;
+}
