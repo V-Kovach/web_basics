@@ -39,6 +39,4 @@ li .bold {
   font-size: 20px;
   border: 1px solid blue;
 }
-* {
-  box-sizing: border-box;
-}
+
