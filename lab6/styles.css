@@ -1,0 +1,54 @@
+body {
+  font-family: serif;
+  font-size: 14px;
+  line-height: 1.25;
+  color: #777;
+}
+ul {
+  font-weight: bold;
+}
+
+h1,
+h2 {
+  font-family: "Cormorant Infant";
+  letter-spacing: 0.5px;
+  color: black;
+  text-transform: capitalize;
+}
+h1 {
+  font-size: 32px;
+}
+h2 {
+  margin-top: 60px;
+  margin-bottom: 0;
+  font-size: 26px;
+}
+.double-line {
+  line-height: 2;
+}
+.mail-box {
+  background: #e3fff6;
+  width: 150px;
+  height: 150px;
+  border: 5px solid #c2e4c2;
+  word-wrap: break-word;
+  display: block;
+}
+p {
+  text-align: justify;
+}
+.our-adv {
+  background-image: url("http://picsum.photos/id/357/700/400?blur=5");
+  padding-top: 30px;
+  padding-bottom: 60px;
+  color: #fff;
+  font-size: 16px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.ruler {
+  background-size: conver;
+  background-color: #e3fff6;
+  width: 150px;
+}
